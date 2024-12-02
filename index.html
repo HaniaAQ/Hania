@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <img src="images/profile.jpg" alt="Profile picture" class="profilePic">
+            <p>Hello! I’m Hania Abu Qalbeen, a passionate software developer. I love working on projects that involve creating innovative solutions and solving problems using technology.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Overview of my work and projects:</p>
+            <ul>
+                <li><strong>Software Engineering Principles:</strong> Gained foundational skills in software development methodologies, project management, and version control (Git). Completed projects that emphasized requirements analysis, system design, and collaborative teamwork.</li>
+                <li><strong>Data Structures and Algorithms:</strong> Developed a strong understanding of core data structures and algorithms using Java. Applied these concepts to solve complex problems and improve program efficiency.</li>
+                <li><strong>Web Development:</strong> Built interactive web applications using HTML, CSS, and JavaScript, and learned about responsive design and user experience principles.</li>
+            </ul>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <p>Currently pursuing a Bachelor of Science in Software Engineering - University of Bethlehem University and the expected graduation in 2026.</p>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>HTML & CSS</li>
+            </ul>
+        </section>
+
+        <section id="interests">
+            <h2>Interests</h2>
+            <p>I am particularly interested in software development and data analysis. I enjoy exploring new technologies and applying them to solve real-world problems.</p>
+        </section>
+
+        <section id="awards">
+            <h2>Awards</h2>
+            <ul>
+                <li><strong>Dean’s List:</strong> Awarded for academic excellence.</li>
+                <li><strong>Best Project Award:</strong> Recognized for outstanding project work.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="socialLinks">
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+            </div>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
